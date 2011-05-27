@@ -1,11 +1,19 @@
-package dgJump.friendBar
+package test.preview
 {
 
-public class FriendList
+import flash.events.Event;
+import flash.events.EventDispatcher;
+
+import test.mvcengine.IModel;
+
+public class FriendList extends EventDispatcher implements IModel
 {
-    [Inject]
-    public var changed:FriendListChanged;
     public var users:Vector.<FriendItem>;
+
+    public function change():void
+    {
+        this.dispatchEvent(new Event(Event.CHANGE));
+    }
 
     public function FriendList()
     {
@@ -25,7 +33,6 @@ public class FriendList
             item.lastName = users[i].last_name;
             this.users.push(item);
         }
-        changed.dispatch();
     }
 
     public function getUserById(uid:String):FriendItem

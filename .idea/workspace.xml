@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e4b0da-face-4304-8c37-f2df9afa0141" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Main.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/friendbar/ButtonView.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-flash.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mvcengine/IController.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mvcengine/IModel.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/preview/FriendItem.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/preview/FriendItemThumbView.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/preview/PreviewContainerView.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/service/VKService.as" />
+      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\friendbar\FriendBarView.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\test\friendbar\ButtonView.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\test\friendbar\FriendBarView.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\test\friendbar\FriendItem.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\test\friendbar\FriendItemView.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\test\friendbar\FriendsBarMediator.as" afterPath="" />
+      <change type="MOVED" beforePath="C:\develop\src\test-flash\src\test\friendbar\FriendList.as" afterPath="$PROJECT_DIR$/src/test/preview/FriendList.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test-flash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,28 +79,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Main.as">
+      <file leaf-file-name="FriendList.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/preview/FriendList.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="32" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+            <state line="35" column="79" selection-start="917" selection-end="917" vertical-scroll-proportion="0.6607774">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/friendbar/ButtonView.as">
+      <file leaf-file-name="IModel.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/mvcengine/IModel.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+            <state line="7" column="19" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FriendBarView.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/friendbar/FriendBarView.as">
+      <file leaf-file-name="IController.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/mvcengine/IController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="44" selection-start="583" selection-end="583" vertical-scroll-proportion="0.019562716">
+            <state line="8" column="20" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VKService.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/service/VKService.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FriendItem.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/preview/FriendItem.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="27" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreviewContainerView.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/preview/PreviewContainerView.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="8" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FriendItemThumbView.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/preview/FriendItemThumbView.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="56" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,14 +156,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.as" />
-        <option value="$PROJECT_DIR$/src/friendbar/FriendItem.as" />
-        <option value="$PROJECT_DIR$/src/friendbar/FriendBarView.as" />
-        <option value="$PROJECT_DIR$/src/friendbar/FriendItemView.as" />
-        <option value="$PROJECT_DIR$/src/test/Main.as" />
         <option value="$PROJECT_DIR$/src/test/friendbar/Button.as" />
         <option value="$PROJECT_DIR$/src/test/friendbar/ButtonView.as" />
         <option value="$PROJECT_DIR$/src/test/friendbar/FriendBarView.as" />
+        <option value="$PROJECT_DIR$/src/test/friendbar/FriendItem.as" />
+        <option value="$PROJECT_DIR$/src/test/preview/PreviewView.as" />
+        <option value="$PROJECT_DIR$/src/test/preview/PreviewContainerView.as" />
+        <option value="$PROJECT_DIR$/src/test/preview/FriendItemThumbView.as" />
+        <option value="$PROJECT_DIR$/src/test/preview/FriendItem.as" />
+        <option value="$PROJECT_DIR$/src/test/preview/VKService.as" />
+        <option value="$PROJECT_DIR$/src/test/VKService.as" />
+        <option value="$PROJECT_DIR$/src/test/friendbar/service/VKService.as" />
+        <option value="$PROJECT_DIR$/src/test/Main.as" />
+        <option value="$PROJECT_DIR$/src/test/mvcengine/IController.as" />
+        <option value="$PROJECT_DIR$/src/test/mvcengine/IView.as" />
+        <option value="$PROJECT_DIR$/src/test/mvcengine/IModel.as" />
+        <option value="$PROJECT_DIR$/src/test/preview/FriendList.as" />
       </list>
     </option>
   </component>
@@ -205,6 +257,7 @@
     </navigator>
     <panes>
       <pane id="Favorites" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,13 +312,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="friendbar" />
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="preview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcengine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -282,8 +378,8 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -319,6 +415,15 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" module_name="" player_path="FlashPlayer.exe" run_mode="HtmlOrSwfFile" run_trusted="false" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -330,15 +435,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" module_name="" player_path="FlashPlayer.exe" run_mode="HtmlOrSwfFile" run_trusted="false" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -421,7 +517,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -486,17 +582,56 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/Main.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" />
+        <state line="12" column="39" selection-start="123" selection-end="123" vertical-scroll-proportion="0.24028268">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/friendbar/ButtonView.as">
+    <entry file="file://$PROJECT_DIR$/src/test/preview/FriendItem.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" />
+        <state line="11" column="27" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/friendbar/FriendBarView.as">
+    <entry file="file://$PROJECT_DIR$/src/test/preview/FriendItemThumbView.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="583" selection-end="583" vertical-scroll-proportion="0.019562716">
+        <state line="38" column="56" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/preview/PreviewContainerView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="8" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/service/VKService.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/mvcengine/IModel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/mvcengine/IController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/preview/FriendList.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="79" selection-start="917" selection-end="917" vertical-scroll-proportion="0.6607774">
           <folding />
         </state>
       </provider>
