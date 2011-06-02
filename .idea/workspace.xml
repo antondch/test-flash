@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66e4b0da-face-4304-8c37-f2df9afa0141" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mvcengine/IController.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mvcengine/IModel.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/preview/FriendItem.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/preview/FriendItemThumbView.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/preview/PreviewContainerView.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/service/VKService.as" />
-      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\friendbar\FriendBarView.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\test\friendbar\ButtonView.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\test\friendbar\FriendBarView.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\test\friendbar\FriendItem.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\test\friendbar\FriendItemView.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\develop\src\test-flash\src\test\friendbar\FriendsBarMediator.as" afterPath="" />
-      <change type="MOVED" beforePath="C:\develop\src\test-flash\src\test\friendbar\FriendList.as" afterPath="$PROJECT_DIR$/src/test/preview/FriendList.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="66e4b0da-face-4304-8c37-f2df9afa0141" name="Default" comment="" />
     <ignored path="test-flash.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FriendList.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FriendList.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/preview/FriendList.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="79" selection-start="917" selection-end="917" vertical-scroll-proportion="0.6607774">
+            <state line="35" column="58" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VKService.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="VKService.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/service/VKService.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="6" column="5" selection-start="86" selection-end="86" vertical-scroll-proportion="0.12014134">
               <folding />
             </state>
           </provider>
@@ -508,7 +493,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1271" y="-9" width="1298" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -524,7 +509,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32981315" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32981315" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -608,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/service/VKService.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/mvcengine/IModel.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="19" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
@@ -631,7 +609,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/preview/FriendList.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="79" selection-start="917" selection-end="917" vertical-scroll-proportion="0.6607774">
+        <state line="35" column="58" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/service/VKService.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="86" selection-end="86" vertical-scroll-proportion="0.12014134">
           <folding />
         </state>
       </provider>
